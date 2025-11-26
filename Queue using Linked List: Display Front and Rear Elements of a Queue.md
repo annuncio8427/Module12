@@ -29,8 +29,29 @@ To write a Python program to:
 
 ---
 ## Program
-Add code here
+
+queue = []
+
+queue.append('a')
+queue.append('b')
+queue.append('c')
+queue.append('d')
+
+print("Initial Queue:", queue)
+
+front = queue[0]
+rear = queue[-1]
+
+print("Front element of the queue:", front)
+print("Rear element of the queue:", rear)
+
 
 ## Output
+Initial Queue: ['a', 'b', 'c', 'd']
+- Front element of the queue: a
+- Rear element of the queue: d
 
 ## Result
+Initial Queue: ['a', 'b', 'c', 'd']
+- Front element of the queue: a
+- Rear element of the queue: d
